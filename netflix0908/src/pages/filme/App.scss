@@ -1,0 +1,220 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  overflow-x: hidden;
+
+
+
+  .s-0{
+    background-image: url(../../../public/assets/images/friendsz.png);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
+    
+  }
+
+
+
+  .cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+    width: 100vw;
+    height: 8vh;
+
+   
+    color: white;
+  }
+
+
+  .c-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .c-1 img{
+    height: 4vh;
+    margin-left: 15px;
+  }
+  .c-1 h1{
+    font-size: 22px;
+   
+  }
+  .c-1 p:hover{
+    cursor: pointer;
+    font-size: 18px;
+    letter-spacing: 1px;
+    transition: 0.3s;
+  }
+  .c-1 h1:hover{
+    cursor: pointer;
+    font-size: 24px;
+    letter-spacing: 1px;
+    transition: 0.3s;
+  }
+
+  .c-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .c-2 img{
+    height: 3vh;
+  }
+  .c-2 img:hover{
+    cursor: pointer;
+    height: 4vh;
+    transition: 0.3s;
+  }
+  #seta{
+    height: 1vh;
+    margin-right: 10px;
+  }
+
+  .c-2-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    
+  }
+  .c-2-input input{
+    border: none;
+    height: 5vh;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255) ;
+    padding: 5px;
+  }
+  ::placeholder{
+    color: rgb(202, 201, 201);
+    
+  }
+  .c-2-input button{
+      background-color: rgba(255, 0, 0, 0);
+
+      border: 0px solid beige;
+  }
+  .c-2-input button:hover{
+    cursor: pointer;
+    height: 8vh;
+}
+
+
+
+.s1{
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+
+.s-1-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  color: white;
+
+ margin-top: 255px;
+ margin-left: 25px;
+  width: 25vw;
+  gap: 5px !important;
+}
+.s-1-text h1{
+  margin: 0px;
+}
+.s-1-text p{
+  margin: 0px;
+}
+.s-1-text button{
+  width: 10vw;
+  height: 5vh;
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+.s-1-text button:hover{
+  letter-spacing: 2px;
+  transition: 0.3s;
+  width: 12vw;
+  cursor: pointer;
+}
+  
+
+.s1-pesq{
+  height: 20vh;
+}
+
+.scroll{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100vw;
+  margin: 10px;
+  overflow-x:scroll;
+}
+
+.scroll img{
+  height: 30vh;
+}
+.resultado{
+  color: white;
+  margin-left: 25px;
+  font-size: 22px;
+}
+.resultado:hover{
+  cursor: pointer;
+  letter-spacing: 2px;
+  transition: 0.3s;
+}
+
+
+.img:hover{
+  transition: 0.0s;
+  height: 31vh;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar{
+  background-color: #ffd7d700;      
+  width: 2px;
+  height: 15px;
+
+}
+::-webkit-scrollbar-thumb{
+ background-color: #800a10;
+ border-radius: 15px;
+}
+.plus{
+  background-color: #ffd7d700;
+  height: 5vh;
+  border: none;
+}
+.plus img{
+  height: 5vh;
+  border: 2px solid #800a10;
+  border-radius: 50%;
+}
+
+
+}
